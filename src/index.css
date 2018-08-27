@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+input {
+  width:100%;
+  padding:1%;
+}
+.search-bar{
+  width:90%;
+  background: lightblue;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+}
