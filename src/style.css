@@ -1,14 +1,16 @@
-.search-bar {
+.search-bar  input{
     margin: 20px;
     text-align: center;
+    border:2px solid orange;
   }
   
   .search-bar input {
-    width: 75%;
+    width: 100%;
   }
   
   .video-item img {
     max-width: 64px;
+    
   }
   
   .video-detail .details {
@@ -16,12 +18,18 @@
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    border:2px solid blue;
   }
   
   .list-group-item {
     cursor: pointer;
+    border:2px solid blue;
   }
   
   .list-group-item:hover {
     background-color: #eee;
+  }
+  .container{
+    width:100%;
+    border:2px solid green;
   }
